@@ -1,0 +1,121 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: url(./assets/background.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+/* HEADER */
+
+.container-fluid {
+  background-color: white;
+}
+
+.container-fluid a {
+  color: #36BDAC;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.icon-bar {
+  background-color: #36BDAC;
+  font-weight: bold;
+}
+
+.icon-bar span {
+  background-color: #36BDAC;
+  font-weight: bold;
+}
+
+/* DROPBOX */
+
+.dropbox {
+  background-color: white;
+  padding: 30px 30px 15px;
+  width: 550px;
+  margin: auto;
+  margin-top: 4%;
+}
+
+#dropboxzone {
+  background-color: #FFFDC0;
+  padding: 138px 16px;
+  color: #5BE7C4;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#dropboxzone:hover {
+  background-color: #5BE7C4;
+  color: white;
+}
+
+#dropboxzone.dragover {
+  background-color: #5BE7C4;
+  color: white;
+}
+
+#dropboxzone.dragstart {
+  background-color: #5BE7C4;
+  color: white;
+}
+
+/* DROPBOX CONTROL */
+
+.control {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.controlpercent {
+  font-weight: bold;
+  font-size: 20px;
+  color: #5BE7C4;
+  letter-spacing: 1px;
+}
+
+span {
+  background-color: transparent !important;
+}
+
+.progressBar {
+  position: relative;
+  background-color: #5BE7C4;
+  height: 20px;
+  width: 80%;
+}
+
+#progressbar {
+  position: absolute;
+  background-color: #C0F1CA;
+  content: '';
+  width: 0;
+  height: 20px;
+}
+
+/* OUTPUT */
+
+#output {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .dropbox {
+    width: 80%;
+    margin-top: 10%;
+  }
+  #dropboxzone {
+    font-size: 15px;
+  }
+  .control {
+    margin-top: 20px;
+  }
+  .progressBar {
+    width: 60%;
+  }
+}

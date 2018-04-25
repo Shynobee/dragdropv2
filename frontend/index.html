@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>Drag & Drop</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <nav class- "navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Drag & Drop</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="MyNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"> <a href="#">FR</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- DROP BOX -->
+
+  <div class="dropbox">
+
+    <div id="dropboxzone" class="dropboxzone">
+      Glissez votre fichier ici
+    </div>
+
+    <div class="control">
+      <div class="controlpercent">
+        <span id="progress">000 </span> %
+      </div>
+      <div class="progressBar">
+        <div id="progressbar">
+        </div>
+      </div>
+    </div>
+
+    <output id="output"></output>
+
+  </div>
+
+  <script type="application/javascript " src="uploader.js "></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>
